@@ -8,7 +8,7 @@ if (num==1){
 
 }
 let n5=5
-const t =3
+const t=3
 function ages(){
 var age = 25
 let age1 = 60
