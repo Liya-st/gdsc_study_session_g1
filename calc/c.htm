@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Calculator</title>
+    <style>
+      .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        grid-gap: 5px;
+        max-width: 200px;
+        text-align: center;
+      }
+      .result {
+        grid-column: 1/-1;
+        text-align: left;
+        font-size: 20px;
+      }
+      .button {
+        padding: 5px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="result" id="result">0</div>
+      <button class="button" onclick="append1('1')">1</button>
+      <button class="button" onclick="append1('2')">2</button>
+      <button class="button" onclick="append1('3')">3</button>
+      <button class="button" onclick="append2('+')">+</button>
+      <button class="button" onclick="append1('4')">4</button>
+      <button class="button" onclick="append1('5')">5</button>
+      <button class="button" onclick="append1('6')">6</button>
+      <button class="button" onclick="append2('-')">-</button>
+      <button class="button" onclick="append1('7')">7</button>
+      <button class="button" onclick="append1('8')">8</button>
+      <button class="button" onclick="append1('9')">9</button>
+      <button class="button" onclick="append2('*')">*</button>
+      <button class="button" onclick="append1('0')">0</button>
+      <button class="button" onclick="append2('.')">.</button>
+      <button class="button" onclick="calculate()">=</button>
+      <button class="button" onclick="append2('/')">/</button>
+      <button class="button" onclick="clear()">C</button>
+    </div>
+
+    <script src = "calc.js"></script>
+  </body>
+</html>
