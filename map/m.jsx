@@ -1,4 +1,4 @@
-import GroupMembers from './map';
+import GroupMembers from './GroupMembers.jsx';
 
 const App = () =>{
 const members=[{firstName:"Maedot", lastName:"Alemu"},
