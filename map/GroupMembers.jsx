@@ -1,3 +1,4 @@
+import './GroupMembersList.css'
 const GroupMembers = ({ members }) => {
   return (
     <ul>
