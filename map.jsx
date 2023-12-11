@@ -1,12 +1,17 @@
-
-const GroupMembersList = ({ members }) => {
+const GroupMembers = ({ members }) => {
   return (
     <ul>
-      {members.map((member, index) => (
-        <li key={index}>{member.name}</li>
-      ))}
+      {members.map((member, index) => {
+         const { firstName, lastName } = member
+         (
+          <li key={index}>
+            {firstName}{lastName}
+          </li>
+        )
+      })}
     </ul>
   )
 }
 
-export default GroupMembersList;
+
+export default GroupMembers
