@@ -1,0 +1,12 @@
+.group-members {
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+  }
+  
+  .group-members li {
+    margin-bottom: 8px;
+    padding: 10px;
+  }
+  
+  
