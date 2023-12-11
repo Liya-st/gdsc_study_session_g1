@@ -1,4 +1,4 @@
-import GroupMembersList from './map';
+import GroupMembers from './map';
 
 const App = () =>{
 const members=[{firstName:"Maedot", lastName:"Alemu"},
@@ -9,7 +9,7 @@ const members=[{firstName:"Maedot", lastName:"Alemu"},
 return (
   <div>
     <h1>Group Members</h1>
-    <GroupMembersList members={members} />
+    <GroupMembers members={members} />
   </div>
 )
 
