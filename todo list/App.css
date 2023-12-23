@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+html{
+  font-size: 100%;
+}
+.item-form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: .5rem;
+}
+button{
+  font-size: 2rem;
+  font-weight: 600;
+  align-content: center;
+}
+.item input[type="checkbox"] {
+  margin-right: 15px;
+  cursor: pointer;
+  
+
+}
+.item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  
+}
+.to-do{
+ display: flex;
+ flex-direction: column;
+ background-color: rgb(33, 51, 51);
+ align-content: center;
+ justify-content: center;
+ padding: 100px;
+
+}
+.btn-danger{
+  background-color: #020202;
+  color: #be0808;
+  border: 50px;
+   padding:1%;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+
